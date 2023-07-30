@@ -1,0 +1,19 @@
+Primo Step.
+(Sul Terminale andiamo ad inserire git init così facendo andremo a creare la cartella Git con tutti i file)
+Git init = Inizializzazione di Git.
+
+Secondo Step
+Andiamo a creare la nostra prima pagina HTML.
+
+INIZIALI SIGNIFICATO
+U = Untracked
+A = add
+M = Modified 
+
+TABELLA COMANDI Git
+git init = Inizializzazione di Git
+git status = andiamo a vedere tutte le modifiche apportarte (file aggiunti ecc..).
+commits = sono la conferma delle modifiche
+Untracked files = file che non sono tracciati(che ancora non esistono).
+git add.. <file>.." = tracciamo i file scelti.
+git rm --cached <file>.." = committiamo i file scelti. (confermiamo le modifiche).
