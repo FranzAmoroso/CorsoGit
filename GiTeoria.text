@@ -22,3 +22,4 @@ git log = andiamo a vedere tutti i commit.
 git rm --cached <file>.." = committiamo i file scelti. (confermiamo le modifiche).
 git checkout <NomeBranch> = Ci spostiamo sul branch scelto
 git checkout -b <NomeNewBranch> = (git checkout) = mi sto postando; (-b) = nuovo branch
+git merge <branch> = fondiamo il branch in cui ci troviamo con il branch inserito
