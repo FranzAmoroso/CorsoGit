@@ -18,4 +18,7 @@ Untracked files = file che non sono tracciati(che ancora non esistono).
 git add <file> = tracciamo i file scelti.
 git add . = andiamo a tracciare tutti i file.
 git commit -m "Title" -m "paragraph". = andiamo a inserire un checkpoint del codice e di tutto quello che abbiamo fatto.
+git log = andiamo a vedere tutti i commit.
 git rm --cached <file>.." = committiamo i file scelti. (confermiamo le modifiche).
+git checkout <NomeBranch> = Ci spostiamo sul branch scelto
+git checkout -b <NomeNewBranch> = (git checkout) = mi sto postando; (-b) = nuovo branch
