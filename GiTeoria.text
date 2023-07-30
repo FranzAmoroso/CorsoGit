@@ -13,7 +13,9 @@ M = Modified
 TABELLA COMANDI Git
 git init = Inizializzazione di Git
 git status = andiamo a vedere tutte le modifiche apportarte (file aggiunti ecc..).
-commits = sono la conferma delle modifiche
+commits = sono la conferma delle modifiche e i checkpoint del codice.
 Untracked files = file che non sono tracciati(che ancora non esistono).
-git add.. <file>.." = tracciamo i file scelti.
+git add <file> = tracciamo i file scelti.
+git add . = andiamo a tracciare tutti i file.
+git commit -m "Title" -m "paragraph". = andiamo a inserire un checkpoint del codice e di tutto quello che abbiamo fatto.
 git rm --cached <file>.." = committiamo i file scelti. (confermiamo le modifiche).
