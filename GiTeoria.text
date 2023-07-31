@@ -1,0 +1,41 @@
+Primo Step.
+(Sul Terminale andiamo ad inserire git init così facendo andremo a creare la cartella Git con tutti i file)
+Git init = Inizializzazione di Git.
+
+Secondo Step
+Andiamo a creare la nostra prima pagina HTML.
+
+Terzo Step
+Alla fine della creazione del Sito, Pagina, o File; Andiamo a creare un altro branch per sviluppare il codice, Un'altro per Risolvere i Bug, 
+Un'altro se andiamo a cambiare completamente il codice (ES: Prossimo Aggiornamento),
+ed Un'altro branch per andare a sviluppare il codice Completamente Nuovo-(ES: DEV Prossimo Aggiornamento)
+
+GITKRAKEN
+Applicazione a pagamento per avere una visione migliore del GIT
+
+GIT FORK
+Sono il numero delle persone che hanno copiato la repository.
+
+
+INIZIALI SIGNIFICATO
+U = Untracked 
+A = add
+M = Modified 
+
+TABELLA COMANDI Git
+git init = Inizializzazione di Git
+git status = andiamo a vedere tutte le modifiche apportarte (file aggiunti ecc..).
+commits = sono la conferma delle modifiche e i checkpoint del codice.
+Untracked files = file che non sono tracciati(che ancora non esistono).
+git add <file> = tracciamo i file scelti.
+git add . = andiamo a tracciare tutti i file per eseguire il commit.
+git reset HEAD~1  = andiamo a togliere il tracciamento dei file per il commit di uno.
+git reset <commit(ES: ee5c36be70ac7956f3021e26306205d7857db29f)> = andiamo a togliere il tracciamento fino al commmit da noi scelto.
+git commit -m "Title" -m "paragraph". = andiamo a inserire un checkpoint del codice e di tutto quello che abbiamo fatto.
+git log = andiamo a vedere tutti i commit.
+git rm --cached <file>.." = committiamo i file scelti. (confermiamo le modifiche).
+git checkout <NomeBranch> = Ci spostiamo sul branch scelto.git
+git checkout -b <NomeNewBranch> = (git checkout) = mi sto postando; (-b) = nuovo branch.
+git merge <branch> = fondiamo il branch in cui ci troviamo con il branch inserito.
+git remote add origin<adressOrigin(ES: http\\:..ecc)> = aggiungere online il nostro repository
+git push <NomeBranch> = aggiungi il branch online sul tuo profilo.
