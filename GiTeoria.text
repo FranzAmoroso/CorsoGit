@@ -7,8 +7,12 @@ Andiamo a creare la nostra prima pagina HTML.
 
 Terzo Step
 Alla fine della creazione del Sito, Pagina, o File; Andiamo a creare un altro branch per sviluppare il codice, Un'altro per Risolvere i Bug, 
+<<<<<<< HEAD
 Un'altro se andiamo a cambiare completamente il codice (ES: Prossimo Aggiornamento),
 ed Un'altro branch per andare a sviluppare il codice Completamente Nuovo-(ES: DEV Prossimo Aggiornamento)
+=======
+Un'altro se andiamo a cambiare completamente il codice (ES: Prossimo Aggiornamento) e Un'altro branch per andare a sviluppare il codice Completamente Nuovo-(ES: DEV Prossimo Aggiornamento)
+>>>>>>> develop
 
 INIZIALI SIGNIFICATO
 U = Untracked 
