@@ -5,8 +5,13 @@ Git init = Inizializzazione di Git.
 Secondo Step
 Andiamo a creare la nostra prima pagina HTML.
 
+Terzo Step
+Alla fine della creazione del Sito, Pagina, o File; Andiamo a creare un altro branch per sviluppare il codice, Un'altro per Risolvere i Bug, 
+Un'altro se andiamo a cambiare completamente il codice (ES: Prossimo Aggiornamento),
+ed Un'altro branch per andare a sviluppare il codice Completamente Nuovo-(ES: DEV Prossimo Aggiornamento)
+
 INIZIALI SIGNIFICATO
-U = Untracked
+U = Untracked 
 A = add
 M = Modified 
 
@@ -18,4 +23,8 @@ Untracked files = file che non sono tracciati(che ancora non esistono).
 git add <file> = tracciamo i file scelti.
 git add . = andiamo a tracciare tutti i file.
 git commit -m "Title" -m "paragraph". = andiamo a inserire un checkpoint del codice e di tutto quello che abbiamo fatto.
+git log = andiamo a vedere tutti i commit.
 git rm --cached <file>.." = committiamo i file scelti. (confermiamo le modifiche).
+git checkout <NomeBranch> = Ci spostiamo sul branch scelto.git
+git checkout -b <NomeNewBranch> = (git checkout) = mi sto postando; (-b) = nuovo branch.
+git merge <branch> = fondiamo il branch in cui ci troviamo con il branch inserito.
